@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+	<link href="css/home.css" rel="stylesheet" type="text/css" />
+	<link href="css/font_6yxmrwgmg7kl0udi.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/jquery.range.css">
+	<link rel="stylesheet" href="css/jquery-ui.min.css" />
+	<title>Document</title>
+	<style>
+		* {
+			touch-action: pan-y;
+		}
+
+		div {
+			text-align: center;
+			margin: 0 auto;
+		}
+	</style>
+</head>
+
+<body>
+	<!--top-->
+	<div class="top_c">
+		<p class="titi">
+			贷款理财
+		</p>
+	</div>
+
+	<!--头部-->
+	<div class="tou">
+		<div>自动出借工具选择</div>
+		<label id="shijian">最短授权时间:</label>
+		<div style="margin:1em;">
+			<input type="hidden" class="slider-input" />
+		</div>
+		<div id="slider"></div>
+	</div>
+
+	<div style="background-color:#fff;">
+		<p>历史年化（%）：11.79</p>
+		<p>可授权金额（X币）：443566</p>
+		<p style="margin-bottom:0;">出借限额：1236</p>
+	</div>
+
+	<!-- 选项栏 -->
+	<div style="background-color:#fff;">
+		<ul class="nav nav-tabs">
+			<li id="active1" style="width:50%" class="active">
+				<a href="#">接收比特币</a>
+			</li>
+			<li id="active2" style="width:50%">
+				<a href="#">发送比特币</a>
+			</li>
+		</ul>
+	</div>
+	<!-- 选项栏内容 -->
+	<div style="margin-top:1em;">
+		向如下地址汇入BTC完成充值 <br />
+		<img src="images/aaaaaaa.png" width="40%">
+	</div>
+	<!-- 按钮 -->
+	<div style="margin-top:5em;">
+			<button type="button" class="btn btn-success btn-lg" style="width:90%">小的成功按钮</button>
+	</div>
+
+	<!--footer-->
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-3">
+					<a href="index.html" class="dao">
+						<i class="iconfont icon-shouye-copy-copy-copy"></i>
+						<span class="nav_ti">首页</span>
+					</a>
+				</div>
+				<div class="col-xs-3">
+					<a href="daikuan.html" class="dao">
+						<i class="iconfont icon-zhangdan" style="color:#246fc0;"></i>
+						<span class="nav_ti" style="color:#246fc0;">贷款</span>
+					</a>
+				</div>
+				<div class="col-xs-3">
+					<a href="bag.html" class="dao">
+						<i class="iconfont icon-qianbao-"></i>
+						<span class="nav_ti">分销</span>
+					</a>
+				</div>
+				<div class="col-xs-3">
+					<a id="personalinfo" href="personalinfo.html" class="dao">
+						<i class="iconfont icon-information"></i>
+						<span class="nav_ti">个人信息</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="js/daikuan.js" type="text/javascript"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/jquery.range-min.js"></script>
+</body>
+
+</html>
